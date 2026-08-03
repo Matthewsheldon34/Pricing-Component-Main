@@ -2,11 +2,11 @@ import { defineConfig } from 'vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 import tailwindcss from '@tailwindcss/vite'
-// https://vite.dev/config/
+
 export default defineConfig({
-  base: './',
+  base: '/pricing-component-main/',  // ← Changed from './'
   plugins: [
-        tailwindcss(),
+    tailwindcss(),
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
