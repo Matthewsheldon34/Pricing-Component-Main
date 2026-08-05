@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react';
-import BgPattern from '../assets/images/BgPattern.svg';
-import PatternCircles from '../assets/images/PatternCircles.svg';
-import IconSlider from "../assets/images/IconSlider.svg";
-import IconCheck from "../assets/images/IconCheck.svg";
+import BgPattern from '../images/BgPattern.svg';
+import PatternCircles from '../images/PatternCircles.svg';
+import IconSlider from "../images/IconSlider.svg";
+import IconCheck from "../images/IconCheck.svg";
 
 function PricePage() {
   const [pageViews, setPageViews] = useState(100000);
